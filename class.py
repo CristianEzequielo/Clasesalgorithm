@@ -6,5 +6,5 @@ class Alumno():
         self.nrodni=dni
         self.edad=edad
     
-x=Alumno("Cristian", "Linares", 33714571, 36)
+x=Alumno("Josesito", "Pérez", 42521715, 23)
 print(x.nombre, x.apelido, x.nrodni, x.edad)
