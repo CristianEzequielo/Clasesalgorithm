@@ -6,11 +6,9 @@ def potenciacion_recursiva(a,b):
     #caso base
     if b == 1:
         return a
-    elif b <= 0:
+    elif b == 0:
         return 1
     #llamada recursiva
     else:
         return a * potenciacion_recursiva(a,b-1)
     
-resultado = potenciacion_recursiva(2,-1)
-print(resultado)
